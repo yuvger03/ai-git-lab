@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# IDE settings stay personal, so partners never conflict over them
+.idea/
+.vscode/
+
+# Personal agent files (shared ones like AGENTS.md and .claude/settings.json are committed)
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Secrets never go in git
+.env
+*.key
+
+# OS clutter
+.DS_Store
+Thumbs.db
