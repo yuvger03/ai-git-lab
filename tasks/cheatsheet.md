@@ -16,6 +16,7 @@ Every action has three forms: the PyCharm action you click, the git command an a
 | Resolve a conflict | Commit tool window → Merge Conflicts → Resolve → Merge | Edit the file, `git add`, `git commit` | "Explain both sides of this conflict. Don't edit." |
 | Throw away uncommitted changes | Rollback: Ctrl+Alt+Z · Cmd+Option+Z | `git restore .` | Nothing: you decide |
 | Undo a pushed commit | Git log → right-click → Revert Commit | `git revert <commit>` | Nothing: you decide |
+| Keep a key out of git | Put it in `.env`; ignored files never appear in the Commit tool window | `git check-ignore -v .env` | Nothing: never paste a key into a prompt ([secrets.md](secrets.md)) |
 | Open the terminal | Alt+F12 · Option+F12 | | |
 
 ## Agent controls

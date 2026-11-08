@@ -46,7 +46,7 @@ Never rewrite history your partner may already have. Right-click the commit in t
 1. One branch per AI task, started from a clean working tree.
 2. Read every diff and run the tests yourself before you commit.
 3. Agents do not push, pull, reset or force anything. You do, in PyCharm.
-4. No secrets in prompts, code or commits; `.env` stays in `.gitignore`.
+4. No secrets in prompts, code or commits: keys live in `.env`, which `.gitignore` keeps out of git. How: [secrets.md](secrets.md).
 5. Agent rules live in the repository (`AGENTS.md` for every agent, `CLAUDE.md` for Claude), so they get committed and reviewed like code.
 6. Say when an AI wrote code: in the pull request, and in the commit. Follow the course's AI-use policy.
 

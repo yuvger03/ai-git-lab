@@ -14,7 +14,7 @@ You work in pairs on one shared GitHub repository, each partner in their own PyC
 | 1:48 | 4. Break it, recover it | 7 | [part4.md](part4.md) |
 | 1:55 | Exit ticket | 5 | [exit-ticket.md](exit-ticket.md) |
 
-Need a command? [cheatsheet.md](cheatsheet.md). Finished early? [bonus.md](bonus.md).
+Need a command? [cheatsheet.md](cheatsheet.md). Finished early? [bonus.md](bonus.md). Before you use any API key, here or in your project: [secrets.md](secrets.md).
 
 ## Your cards
 

@@ -13,9 +13,12 @@ venv/
 CLAUDE.local.md
 .claude/settings.local.json
 
-# Secrets never go in git
+# Secrets never go in git: keys live in .env (see tasks/secrets.md)
 .env
+.env.*
+!.env.example
 *.key
+*.pem
 
 # OS clutter
 .DS_Store

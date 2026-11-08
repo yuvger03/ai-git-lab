@@ -4,6 +4,7 @@ A tiny Python gradebook for practising git, PyCharm and AI coding agents togethe
 
 - **Before class:** do [SETUP.md](SETUP.md) at home (about 20 minutes).
 - **In class:** Part 0 below, then [tasks/README.md](tasks/README.md).
+- **Before you use any API key:** [tasks/secrets.md](tasks/secrets.md). Keys never go in code or in git.
 
 ## Part 0: your pair repository (15 minutes)
 
@@ -55,6 +56,7 @@ python -m gradebook stats data/course.csv
 | `tasks/README.md` | Start here in class: the plan, your cards, the rules |
 | `tasks/git-basics.md` | The git ideas and commands from the opening slides |
 | `tasks/cheatsheet.md` | The PyCharm action, git command and AI prompt for every step |
+| `tasks/secrets.md` | API keys, `.env` and `.gitignore`: read before you use any key |
 | `tasks/part1-A.md` … `tasks/part4.md` | One card per partner per part |
 | `tasks/exit-ticket.md`, `tasks/bonus.md` | The exit ticket, and extras for fast pairs |
 | `AGENTS.md` | Rules every coding agent follows in this repository |

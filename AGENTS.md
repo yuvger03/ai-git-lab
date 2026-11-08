@@ -19,4 +19,4 @@ These rules apply to every coding agent working in this repository (Gemini, Clau
 3. Keep changes small. After editing, list each changed file with one sentence on what changed.
 4. Run the tests after every change and report the result honestly, including failures that remain.
 5. Git: read-only commands (`git status`, `git diff`, `git log`, `git show`) are fine. Commit only when the human asks. Never push, pull, merge, rebase, reset, revert or use `--force`; the human does those in PyCharm.
-6. Never put secrets (API keys, tokens, passwords) in code, commits, or chat.
+6. Never put secrets (API keys, tokens, passwords) in code, commits, or chat. Code reads keys from environment variables (see `tasks/secrets.md`); never open, print or change `.env`.
